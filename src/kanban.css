@@ -1,20 +1,21 @@
 .kanban-board {
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-evenly;
+    padding: 30px;
   }
   
   .column {
     width: 300px;
-    padding: 10px;
-    background-color: #ECF7F4;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f3f3f3;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   
   .item {
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
@@ -34,6 +35,7 @@
   
   .column-title {
     text-align: center;
+    padding-bottom: 10px;
     font-family: system-ui;
   }
   .custom-image {

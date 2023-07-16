@@ -118,21 +118,21 @@ const linksArray = [
         notification: 0,
     },
     {
-        label: "Statistics",
+        label: "Dashboard",
         icon: <MdOutlineAnalytics />,
         to: "/statistics",
-        notification: 3,
-    },
-    {
-        label: "Customers",
-        icon: <BsPeople />,
-        to: "/customers",
         notification: 0,
     },
     {
-        label: "Diagrams",
+        label: "Utilisateurs",
+        icon: <BsPeople />,
+        to: "/users",
+        notification: 0,
+    },
+    {
+        label: "Projets",
         icon: <AiOutlineApartment />,
-        to: "/diagrams",
+        to: "/projects",
         notification: 1,
     },
 ];

@@ -6,7 +6,7 @@ import '../kanban.css';
 const HomePage = () => {
     return( 
     <div className='dashboard'>
-        <h1>Home Page</h1>
+        <h1>Home</h1>
         <br></br>
         <KanbanBoard />
     </div> );

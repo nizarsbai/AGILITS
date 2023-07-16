@@ -109,6 +109,7 @@ function Column({ title, status, items, setItems }) {
                     <h3>{item.title__c}</h3>
                     <p>{item.description__c}</p>
                     <p>{item.date__c}</p>
+                    <br style={{height:'2px', width:'2px'}}></br>
                     <button
                       onClick={() => handleDeleteItem(item.Id)}
                       className="delete-button"
@@ -159,6 +160,7 @@ function Column({ title, status, items, setItems }) {
       <input type="text" name="Name" value={formData.Name} onChange={handleChange} className="input-field" />
     </label>
     <label>
+      <br></br>
       <b>Title :</b>
       <input
         type="text"
